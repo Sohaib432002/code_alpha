@@ -12,7 +12,7 @@ import os
 
 
 
-dataset_path = 'https://drive.google.com/drive/folders/1LlKOyzeSKwTM6qSSAHgtvFyWkAqZa1eV?usp=drive_link'
+dataset_path = 'https://drive.google.com/drive/folders/1gHbNdipjkh1-DMSCdwXNW65yZewy1G2Z?usp=sharing'
 
 
 face_images = []
