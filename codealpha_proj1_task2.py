@@ -12,7 +12,7 @@ import os
 
 
 
-dataset_path = 'D:/Python/dataset_codeaplpha/Training'
+dataset_path = 'https://drive.google.com/drive/folders/1LlKOyzeSKwTM6qSSAHgtvFyWkAqZa1eV?usp=drive_link'
 
 
 face_images = []
