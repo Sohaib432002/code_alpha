@@ -1,3 +1,4 @@
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -12,8 +13,7 @@ import os
 
 
 
-dataset_path = 'https://drive.google.com/drive/folders/1gHbNdipjkh1-DMSCdwXNW65yZewy1G2Z?usp=sharing'
-
+dataset_path = input('Enter the Trainning Dataset Path :')
 
 face_images = []
 labels = []
@@ -83,7 +83,7 @@ def recognize_faces(image_path):
     return predicted_label[0]
 
 # Example usage:
-test_image_path = input("Enter the Path : ")
+test_image_path = input("Enter the any Testing dataset Path : ")
 predicted_person = recognize_faces(test_image_path)
 print(f"Predicted person in the image: {predicted_person}")
 
